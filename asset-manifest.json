@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/influence-landing/static/css/main.9da3def8.css",
-    "main.js": "/influence-landing/static/js/main.95d8cdb9.js",
+    "main.css": "/influence-landing/static/css/main.40e1b30a.css",
+    "main.js": "/influence-landing/static/js/main.19a14159.js",
     "static/js/787.d4c3a32d.chunk.js": "/influence-landing/static/js/787.d4c3a32d.chunk.js",
     "index.html": "/influence-landing/index.html",
-    "main.9da3def8.css.map": "/influence-landing/static/css/main.9da3def8.css.map",
-    "main.95d8cdb9.js.map": "/influence-landing/static/js/main.95d8cdb9.js.map",
+    "main.40e1b30a.css.map": "/influence-landing/static/css/main.40e1b30a.css.map",
+    "main.19a14159.js.map": "/influence-landing/static/js/main.19a14159.js.map",
     "787.d4c3a32d.chunk.js.map": "/influence-landing/static/js/787.d4c3a32d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9da3def8.css",
-    "static/js/main.95d8cdb9.js"
+    "static/css/main.40e1b30a.css",
+    "static/js/main.19a14159.js"
   ]
 }
