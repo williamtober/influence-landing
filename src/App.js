@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import ReactGA from 'react-ga';
-import pfp from './assets/cait.jpg';
 import site from './site';
 
 // initalize google analytics
@@ -11,10 +10,10 @@ function App() {
   const [selection, setSelection] = useState(0);
   
   return (
-    <div className='w-screen h-screen lg:flex lg:flex-row'>
-      <header className='w-full lg:w-3/12 h-full flex flex-col items-center justify-center lg:border-r-4 lg:border-purple-400 lg:pr-6'>
+    <div className='w-screen h-screen lg:flex lg:flex-row lg:justify-center'>
+      <header className='w-full lg:w-3/12 h-full flex flex-col items-center justify-center lg:shadow-2xl lg:shadow-purple-400 lg:border-x-4 lg:border-purple-400 lg:pr-6'>
 
-        <img src={pfp} className='w-[30vh] rounded-full  border-8 border-purple-600 shadow-purple-500 shadow-lg'/>
+        <img src={site.pfp} className='w-[30vh] rounded-full  border-8 border-purple-600 shadow-purple-500 shadow-lg'/>
         <h1 className='text-4xl font-bold text-purple-700 mt-6 mb-12'>{site.name}</h1>
 
         <nav className="w-full">
@@ -28,9 +27,6 @@ function App() {
           </ul>
         </nav>
       </header>
-      <div className='w-9/12 h-screen hidden lg:flex bg-green-500'>
-        <p>testing</p>
-      </div>
     </div>
   );
 }
