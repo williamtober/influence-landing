@@ -10,8 +10,8 @@ function App() {
   const [selection, setSelection] = useState(0);
   
   return (
-    <div className='w-screen h-screen lg:flex lg:flex-row lg:justify-center'>
-      <header className='w-full lg:w-3/12 h-full flex flex-col items-center justify-center lg:shadow-2xl lg:shadow-purple-400 lg:border-x-4 lg:border-purple-400 lg:pr-6'>
+    <div className='w-screen h-screen xl:flex xl:flex-row xl:justify-center'>
+      <header className='w-full xl:w-3/12 h-full flex flex-col items-center justify-center xl:shadow-2xl xl:shadow-purple-400 xl:border-x-4 xl:border-purple-400 xl:pr-6'>
 
         <img src={site.pfp} className='w-[30vh] rounded-full  border-8 border-purple-600 shadow-purple-500 shadow-lg'/>
         <h1 className='text-4xl font-bold text-purple-700 mt-6 mb-12'>{site.name}</h1>
