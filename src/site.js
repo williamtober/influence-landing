@@ -1,8 +1,9 @@
 const site = {
-    name: 'KitKatCait',
+    name: 'John Doe',
     description: 'A blog about cats and kitkats',
     
     ga: '', // * gaTracking Id
+    pfp: 'https://images.unsplash.com/photo-1485206412256-701ccc5b93ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&w=1000&q=80',
     links: [
         {
             name: 'twitter',
